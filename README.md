@@ -8,7 +8,7 @@ This project contains the source code for a personal web page, where you can fin
   - Description about my studies
   - Contact info and social media
 
-I hope that you enjoy the content and if you have any doubts, let me know using the contact info.
+I hope that you enjoy the content and if you have any questions, let me know using the contact info.
 
 URL to visualize the page:
 https://mario-hurtado.github.io/Entrega-1/
