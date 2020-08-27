@@ -1,13 +1,14 @@
 # Entrega-1
-Descripción:
-Este proyecto contiene el código fuente para una página web personal, en donde se puede encontrar información sobre mí en cuanto a:
+Description:
+This project contains the source code for a personal web page, where you can find the following information about me:
 
-  - Quién soy 
-  - Proyectos que he realizado
-  - Intereses y habilidades
-  - Descripción sobre mi formación académica
-  - Información de contacto y redes sociales
+  - Who am I
+  - Projects I've made
+  - Interests and abilities
+  - Description about my studies
+  - Contact info and social media
 
-Espero disfrutes el contenido y cualquier duda que tengas me la hagas saber utilizando la información de contacto que hay en la parte inferior de la página.
+I hope you enjoy the content and if you have any doubts, let me know using the contact info.
 
-URL para la visualización de la página:
+URL to visualize the page:
+https://mario-hurtado.github.io/Entrega-1/
