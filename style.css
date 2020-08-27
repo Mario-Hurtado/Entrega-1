@@ -72,6 +72,10 @@ ol li {
   height: 100%;
 }
 
+div[class="col-md-6"] {
+  padding: 5px;
+}
+
 .responsive-audio {
   position: relative;
   top: 0;
@@ -80,4 +84,8 @@ ol li {
   right: 0;
   width: 100%;
   height: 100%;
+}
+
+.colorBlanco {
+  color: white;
 }
