@@ -1,0 +1,63 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav,
+h1,
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  text-align: justify;
+}
+
+div [class="row"] {
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  padding-top: 30px;
+}
+
+iframe {
+  margin: 5px;
+}
+
+button[id="dropdownMenuButton"] {
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+div.centerplayer {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social a {
+  margin: 0 30px;
+}
+
+.social a i {
+  font-size: 3rem;
+  color: black;
+}
+
+ol li {
+  padding-top: 20px;
+}
+
+#botonCentrado {
+  text-align: center;
+}
