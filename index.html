@@ -1,3 +1,11 @@
+<!--
+  Observaciones:
+  - El codigo html es legible y tiene una estructura consistente.
+  - Podria separar las secciones con el elemento <section> para ayudar con la accesibilidad.
+  - Las reglas CSS estan bien definidas.
+  - Hay algunos errores con los iframe y los botones para colapsar.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -116,153 +124,163 @@
     <main>
       <div class="container">
         <div class="row pad">
-          <div class="col-md-6" id="projects">
-            <h2>Projects I've been part of</h2>
+          <div class="col-md-6">
+            <section id="projects">
+              <h2>Projects I've been part of</h2>
 
-            <div class="row">
-              <p>These are some of the projects I've done at the university:</p>
-              <div class="col-md-6 padvideo">
-                <iframe
-                  width="275"
-                  height="275"
-                  class="responsive-iframe"
-                  src="https://www.youtube.com/embed/XEROXN7xMMY"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div class="col-md-6 padvideo">
-                <iframe
-                  width="275"
-                  class="responsive-iframe"
-                  height="275"
-                  src="https://www.youtube.com/embed/AjZGNPqoMbw"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div class="responsive-audio">
-                <p></p>
+              <div class="row">
+                <p>
+                  These are some of the projects I've done at the university:
+                </p>
+                <div class="col-md-6 padvideo">
+                  <iframe
+                    width="275"
+                    height="275"
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/XEROXN7xMMY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="col-md-6 padvideo">
+                  <iframe
+                    width="275"
+                    class="responsive-iframe"
+                    height="275"
+                    src="https://www.youtube.com/embed/AjZGNPqoMbw"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="responsive-audio">
+                  <p></p>
+                  <br />
+                  <audio controls class="audioCentrado">
+                    <source src="podcast.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio tag.
+                  </audio>
+                </div>
                 <br />
-                <audio controls class="audioCentrado">
-                  <source src="podcast.mp3" type="audio/mpeg" />
-                  Your browser does not support the audio tag.
-                </audio>
+                <ol>
+                  <li>
+                    Software Development course project, in which my team and I
+                    built a web page using Java for the backend and HTML, CSS
+                    and Typescript for the frontend.
+                  </li>
+                  <li>
+                    Software Architecture course project, in which my team and I
+                    built the software architecture for a company called Chiper.
+                    We were chosen as the best architecture.
+                  </li>
+                  <li>
+                    Podcast from the mandatory Colombia course at the
+                    university, in which my team and I had to make a research on
+                    a specific problem in the country and find a possible
+                    solution.
+                  </li>
+                </ol>
               </div>
-              <br />
-              <ol>
-                <li>
-                  Software Development course project, in which my team and I
-                  built a web page using Java for the backend and HTML, CSS and
-                  Typescript for the frontend.
-                </li>
-                <li>
-                  Software Architecture course project, in which my team and I
-                  built the software architecture for a company called Chiper.
-                  We were chosen as the best architecture.
-                </li>
-                <li>
-                  Podcast from the mandatory Colombia course at the university,
-                  in which my team and I had to make a research on a specific
-                  problem in the country and find a possible solution.
-                </li>
-              </ol>
-            </div>
+            </section>
           </div>
-          <div class="col-md-6" id="studies">
-            <h2>Studies</h2>
-            <br />
-            <p>
-              Here you will find information about my studies, from when I was a
-              kid to where I am studying now. Click on any of the buttons below
-              to check the information you want, click again to close the
-              descrption.
-            </p>
-            <div class="text-center">
-              <button
-                class="btn btn-dark"
-                type="button"
-                style="margin-bottom: 20px"
-                data-toggle="collapse"
-                data-target="#kindergarden"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Kindergarden
-              </button>
-            </div>
-            <div class="text-center">
-              <button
-                class="btn btn-dark"
-                type="button"
-                data-toggle="collapse"
-                style="margin-bottom: 20px"
-                data-target="#school"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                School and Highschool
-              </button>
-            </div>
-            <div class="text-center">
-              <button
-                class="btn btn-dark"
-                type="button"
-                data-toggle="collapse"
-                data-target="#university"
-                style="margin-bottom: 20px"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                University
-              </button>
-            </div>
-            <div class="collapse" id="kindergarden">
-              <div class="card card-body">
-                My first years of study were at a kindergarden called "ABC". In
-                this place I worked on my motor, socializing and expression
-                skills. This place was located in the Ciudad Salitre
-                neighbourhood, which was near to my home at that moment.
+          <div class="col-md-6">
+            <section id="studies">
+              <h2>Studies</h2>
+              <br />
+              <p>
+                Here you will find information about my studies, from when I was
+                a kid to where I am studying now. Click on any of the buttons
+                below to check the information you want, click again to close
+                the descrption.
+              </p>
+              <div class="text-center">
+                <button
+                  class="btn btn-dark"
+                  type="button"
+                  style="margin-bottom: 20px"
+                  data-toggle="collapse"
+                  data-target="#kindergarden"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Kindergarden
+                </button>
               </div>
-            </div>
-            <br />
-            <div class="collapse" id="school">
-              <div class="card card-body">
-                I studied in a school called Colegio Refous. Here I learned
-                everything that I needed to enter the university. This school
-                was great, I learned many things and it helped me to get better
-                at math, which is a good thing when you study any engineering.
+              <div class="text-center">
+                <button
+                  class="btn btn-dark"
+                  type="button"
+                  data-toggle="collapse"
+                  style="margin-bottom: 20px"
+                  data-target="#school"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  School and Highschool
+                </button>
+              </div>
+              <div class="text-center">
+                <button
+                  class="btn btn-dark"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#university"
+                  style="margin-bottom: 20px"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  University
+                </button>
+              </div>
+              <div class="collapse" id="kindergarden">
+                <div class="card card-body">
+                  My first years of study were at a kindergarden called "ABC".
+                  In this place I worked on my motor, socializing and expression
+                  skills. This place was located in the Ciudad Salitre
+                  neighbourhood, which was near to my home at that moment.
+                </div>
               </div>
               <br />
-            </div>
-            <div class="collapse" id="university">
-              <div class="card card-body">
-                Universidad de los Andes is the place where I am currently
-                studying, I am in sixth semester of Systems and Computer
-                Engineering, where I have learned to program in languages like
-                Java, Python, Typescript, and to use many different frameworks
-                for this languages.
+              <div class="collapse" id="school">
+                <div class="card card-body">
+                  I studied in a school called Colegio Refous. Here I learned
+                  everything that I needed to enter the university. This school
+                  was great, I learned many things and it helped me to get
+                  better at math, which is a good thing when you study any
+                  engineering.
+                </div>
+                <br />
               </div>
-            </div>
+              <div class="collapse" id="university">
+                <div class="card card-body">
+                  Universidad de los Andes is the place where I am currently
+                  studying, I am in sixth semester of Systems and Computer
+                  Engineering, where I have learned to program in languages like
+                  Java, Python, Typescript, and to use many different frameworks
+                  for this languages.
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
-      <div class="row" id="hobbies">
-        <div class="container">
-          <h2>Hobbies</h2>
-          <p>
-            I have different hobbies that help me avoid being bored at home, now
-            that there's a quarantine due to the COVID-19 pandemic. Some of the
-            things I like to do are:
-          </p>
-          <ul>
-            <li>Play chess</li>
-            <li>Play guitar</li>
-            <li>Play videogames</li>
-          </ul>
-        </div>
+      <div class="row">
+        <section id="hobbies">
+          <div class="container">
+            <h2>Hobbies</h2>
+            <p>
+              I have different hobbies that help me avoid being bored at home,
+              now that there's a quarantine due to the COVID-19 pandemic. Some
+              of the things I like to do are:
+            </p>
+            <ul>
+              <li>Play chess</li>
+              <li>Play guitar</li>
+              <li>Play videogames</li>
+            </ul>
+          </div>
+        </section>
       </div>
     </main>
     <footer id="contact">
