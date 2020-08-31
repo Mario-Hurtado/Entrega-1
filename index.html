@@ -1,3 +1,10 @@
+<!--
+OBSERVACIONES:
+1. Me gustan las fuentes usadas y la estética de la página.
+2. El código también es legible y bien seccionado.
+3. De acuerdo con el validador debe tener cuidado con los atributos del labe iframe.
+4. Sería bueno añadir una carpeta adicional para el contenido multimiedia.
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +20,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!--Bien importar los scripts en el head.-->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -50,13 +58,14 @@
       src="https://kit.fontawesome.com/24019aba15.js"
       crossorigin="anonymous"
     ></script>
-
+    <!--Titulo debería estár en inlgés-->
     <title>Página con información personal de Mario Hurtado</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">MH</a>
+      <!--Severo el MH-->
       <button
         class="navbar-toggler"
         type="button"
@@ -79,9 +88,11 @@
           <a class="nav-item nav-link" href="#contact">Contact info</a>
         </div>
       </div>
+      <!--Buen nav!-->
     </nav>
     <header>
-      <div style="background-image: url('imagenBanner.jpg')">
+      <!--Todo lo referente al estilo debería ir en el archivo styles.css-->
+      <div style="background-image: url('imagenBanner.jpg');">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -89,7 +100,7 @@
                 <img
                   src="imagenPropia3.png"
                   class="img-fluid"
-                  style="height: 350px; width: 350px"
+                  style="height: 350px; width: 350px;"
                   alt="Imagen de Mario Hurtado sentado en una baranda"
                 />
               </div>
@@ -112,10 +123,13 @@
           </div>
         </div>
       </div>
+      <!--Muy organizado el header. Buen manejo de Bootstrap e identación.-->
     </header>
+    <!--Buen main-->
     <main>
       <div class="container">
         <div class="row pad">
+          <!--Hubiera sido adecuado hacer el uso de labels section para separar proyectos y estudios.-->
           <div class="col-md-6" id="projects">
             <h2>Projects I've been part of</h2>
 
@@ -184,7 +198,7 @@
               <button
                 class="btn btn-dark"
                 type="button"
-                style="margin-bottom: 20px"
+                style="margin-bottom: 20px;"
                 data-toggle="collapse"
                 data-target="#kindergarden"
                 aria-expanded="false"
@@ -198,7 +212,7 @@
                 class="btn btn-dark"
                 type="button"
                 data-toggle="collapse"
-                style="margin-bottom: 20px"
+                style="margin-bottom: 20px;"
                 data-target="#school"
                 aria-expanded="false"
                 aria-controls="collapseExample"
@@ -212,7 +226,7 @@
                 type="button"
                 data-toggle="collapse"
                 data-target="#university"
-                style="margin-bottom: 20px"
+                style="margin-bottom: 20px;"
                 aria-expanded="false"
                 aria-controls="collapseExample"
               >
@@ -246,9 +260,12 @@
                 for this languages.
               </div>
             </div>
+            <!--Me parece muy bueno el uso de los botones.-->
           </div>
         </div>
+        <!--Buena distribución y manejo responsive de bootstrap.-->
       </div>
+      <!--Nuevamente yo habría usado el label section-->
       <div class="row" id="hobbies">
         <div class="container">
           <h2>Hobbies</h2>
