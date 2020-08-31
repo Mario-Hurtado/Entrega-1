@@ -1,291 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@700&display=swap"
+        rel="stylesheet" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
 
-    <script
-      src="https://kit.fontawesome.com/24019aba15.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/24019aba15.js" crossorigin="anonymous"></script>
 
     <title>Página con información personal de Mario Hurtado</title>
-  </head>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">MH</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#whoAmI"
-            >Who am I? <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="#projects">My projects</a>
-          <a class="nav-item nav-link" href="#studies">Studies</a>
-          <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
-          <a class="nav-item nav-link" href="#contact">Contact info</a>
-        </div>
-      </div>
-    </nav>
-    <header>
-      <div style="background-image: url('imagenBanner.jpg')">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="text-center">
-                <img
-                  src="imagenPropia3.png"
-                  class="img-fluid"
-                  style="height: 350px; width: 350px"
-                  alt="Imagen de Mario Hurtado sentado en una baranda"
-                />
-              </div>
-            </div>
-            <div class="col-md-8" id="whoAmI">
-              <h2 class="colorBlanco">Who am I?</h2>
-              <p class="colorBlanco">
-                <br /><br />
-                Hello, my name is Mario Andrés Hurtado Sáenz. I study systems
-                engineering at Universidad de los Andes in Bogotá, Colombia. In
-                this website you will find information about me, some projects
-                I've worked on and some of my hobbies. I hope you like the
-                content, please feel free to contact me if you want to know more
-                about me or if you want to work with me. If you want to go to a
-                specific part of the web page, click on the navigation bar item
-                you want to know about and it will take you right to that
-                section.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <div class="row pad">
-          <div class="col-md-6" id="projects">
-            <h2>Projects I've been part of</h2>
+<!--El código html se encuentra organizado y bien identado, lo cual hace su contenido entendible y facilmente-->
+<!--localizable. Se encontró un pequeño problema con respecto al valor del atributo "aria-controls" el cual, por-->
+<!--convención, debería tener el mismo valor del id del objetivo (pero sin incluir el # en el valor). Además, se reporta-->
+<!--un error por el uso de iframes por parte de W3C. Para evitar este error, se recomienda hacer uso del tag "embed"-->
 
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">MH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#whoAmI">Who am I? <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#projects">My projects</a>
+                    <a class="nav-item nav-link" href="#studies">Studies</a>
+                    <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
+                    <a class="nav-item nav-link" href="#contact">Contact info</a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div style="background-image: url('imagenBanner.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="imagenPropia3.png" class="img-fluid" style="height: 350px; width: 350px"
+                                    alt="Imagen de Mario Hurtado sentado en una baranda" />
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="whoAmI">
+                            <h2 class="colorBlanco">Who am I?</h2>
+                            <p class="colorBlanco">
+                                <br /><br />
+                                Hello, my name is Mario Andrés Hurtado Sáenz. I study systems
+                                engineering at Universidad de los Andes in Bogotá, Colombia. In
+                                this website you will find information about me, some projects
+                                I've worked on and some of my hobbies. I hope you like the
+                                content, please feel free to contact me if you want to know more
+                                about me or if you want to work with me. If you want to go to a
+                                specific part of the web page, click on the navigation bar item
+                                you want to know about and it will take you right to that
+                                section.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row pad">
+                    <div class="col-md-6" id="projects">
+                        <h2>Projects I've been part of</h2>
+
+                        <div class="row">
+                            <p>These are some of the projects I've done at the university:</p>
+                            <div class="col-md-6 padvideo">
+                                <embed width="275" height="275" class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/XEROXN7xMMY" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen />
+                            </div>
+                            <div class="col-md-6 padvideo">
+                                <embed width="275" class="responsive-iframe" height="275"
+                                    src="https://www.youtube.com/embed/AjZGNPqoMbw" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen />
+                            </div>
+                            <div class="responsive-audio">
+                                <p></p>
+                                <br />
+                                <audio controls class="audioCentrado">
+                                    <source src="podcast.mp3" type="audio/mpeg" />
+                                    Your browser does not support the audio tag.
+                                </audio>
+                            </div>
+                            <br />
+                            <ol>
+                                <li>
+                                    Software Development course project, in which my team and I
+                                    built a web page using Java for the backend and HTML, CSS and
+                                    Typescript for the frontend.
+                                </li>
+                                <li>
+                                    Software Architecture course project, in which my team and I
+                                    built the software architecture for a company called Chiper.
+                                    We were chosen as the best architecture.
+                                </li>
+                                <li>
+                                    Podcast from the mandatory Colombia course at the university,
+                                    in which my team and I had to make a research on a specific
+                                    problem in the country and find a possible solution.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="studies">
+                        <h2>Studies</h2>
+                        <br />
+                        <p>
+                            Here you will find information about my studies, from when I was a
+                            kid to where I am studying now. Click on any of the buttons below
+                            to check the information you want, click again to close the
+                            descrption.
+                        </p>
+                        <div class="text-center">
+                            <button class="btn btn-dark" type="button" style="margin-bottom: 20px"
+                                data-toggle="collapse" data-target="#kindergarden" aria-expanded="false"
+                                aria-controls="kindergarden">
+                                Kindergarden
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-dark" type="button" data-toggle="collapse"
+                                style="margin-bottom: 20px" data-target="#school" aria-expanded="false"
+                                aria-controls="school">
+                                School and Highschool
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#university"
+                                style="margin-bottom: 20px" aria-expanded="false" aria-controls="university">
+                                University
+                            </button>
+                        </div>
+                        <div class="collapse" id="kindergarden">
+                            <div class="card card-body">
+                                My first years of study were at a kindergarden called "ABC". In
+                                this place I worked on my motor, socializing and expression
+                                skills. This place was located in the Ciudad Salitre
+                                neighbourhood, which was near to my home at that moment.
+                            </div>
+                        </div>
+                        <br />
+                        <div class="collapse" id="school">
+                            <div class="card card-body">
+                                I studied in a school called Colegio Refous. Here I learned
+                                everything that I needed to enter the university. This school
+                                was great, I learned many things and it helped me to get better
+                                at math, which is a good thing when you study any engineering.
+                            </div>
+                            <br />
+                        </div>
+                        <div class="collapse" id="university">
+                            <div class="card card-body">
+                                Universidad de los Andes is the place where I am currently
+                                studying, I am in sixth semester of Systems and Computer
+                                Engineering, where I have learned to program in languages like
+                                Java, Python, Typescript, and to use many different frameworks
+                                for this languages.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="hobbies">
+                <div class="container">
+                    <h2>Hobbies</h2>
+                    <p>
+                        I have different hobbies that help me avoid being bored at home, now
+                        that there's a quarantine due to the COVID-19 pandemic. Some of the
+                        things I like to do are:
+                    </p>
+                    <ul>
+                        <li>Play chess</li>
+                        <li>Play guitar</li>
+                        <li>Play videogames</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer id="contact">
             <div class="row">
-              <p>These are some of the projects I've done at the university:</p>
-              <div class="col-md-6 padvideo">
-                <iframe
-                  width="275"
-                  height="275"
-                  class="responsive-iframe"
-                  src="https://www.youtube.com/embed/XEROXN7xMMY"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div class="col-md-6 padvideo">
-                <iframe
-                  width="275"
-                  class="responsive-iframe"
-                  height="275"
-                  src="https://www.youtube.com/embed/AjZGNPqoMbw"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div class="responsive-audio">
-                <p></p>
-                <br />
-                <audio controls class="audioCentrado">
-                  <source src="podcast.mp3" type="audio/mpeg" />
-                  Your browser does not support the audio tag.
-                </audio>
-              </div>
-              <br />
-              <ol>
-                <li>
-                  Software Development course project, in which my team and I
-                  built a web page using Java for the backend and HTML, CSS and
-                  Typescript for the frontend.
-                </li>
-                <li>
-                  Software Architecture course project, in which my team and I
-                  built the software architecture for a company called Chiper.
-                  We were chosen as the best architecture.
-                </li>
-                <li>
-                  Podcast from the mandatory Colombia course at the university,
-                  in which my team and I had to make a research on a specific
-                  problem in the country and find a possible solution.
-                </li>
-              </ol>
+                <div class="container">
+                    <h2>Follow me on social media</h2>
+                    <br />
+                    <div class="social">
+                        <a href="https://www.instagram.com/mario99_21/" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://es-la.facebook.com/marioandres.hurtadosaenz" target="_blank">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://twitter.com/MarioHurtado99" target="_blank">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6" id="studies">
-            <h2>Studies</h2>
-            <br />
-            <p>
-              Here you will find information about my studies, from when I was a
-              kid to where I am studying now. Click on any of the buttons below
-              to check the information you want, click again to close the
-              descrption.
-            </p>
-            <div class="text-center">
-              <button
-                class="btn btn-dark"
-                type="button"
-                style="margin-bottom: 20px"
-                data-toggle="collapse"
-                data-target="#kindergarden"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Kindergarden
-              </button>
-            </div>
-            <div class="text-center">
-              <button
-                class="btn btn-dark"
-                type="button"
-                data-toggle="collapse"
-                style="margin-bottom: 20px"
-                data-target="#school"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                School and Highschool
-              </button>
-            </div>
-            <div class="text-center">
-              <button
-                class="btn btn-dark"
-                type="button"
-                data-toggle="collapse"
-                data-target="#university"
-                style="margin-bottom: 20px"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                University
-              </button>
-            </div>
-            <div class="collapse" id="kindergarden">
-              <div class="card card-body">
-                My first years of study were at a kindergarden called "ABC". In
-                this place I worked on my motor, socializing and expression
-                skills. This place was located in the Ciudad Salitre
-                neighbourhood, which was near to my home at that moment.
-              </div>
-            </div>
-            <br />
-            <div class="collapse" id="school">
-              <div class="card card-body">
-                I studied in a school called Colegio Refous. Here I learned
-                everything that I needed to enter the university. This school
-                was great, I learned many things and it helped me to get better
-                at math, which is a good thing when you study any engineering.
-              </div>
-              <br />
-            </div>
-            <div class="collapse" id="university">
-              <div class="card card-body">
-                Universidad de los Andes is the place where I am currently
-                studying, I am in sixth semester of Systems and Computer
-                Engineering, where I have learned to program in languages like
-                Java, Python, Typescript, and to use many different frameworks
-                for this languages.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="hobbies">
-        <div class="container">
-          <h2>Hobbies</h2>
-          <p>
-            I have different hobbies that help me avoid being bored at home, now
-            that there's a quarantine due to the COVID-19 pandemic. Some of the
-            things I like to do are:
-          </p>
-          <ul>
-            <li>Play chess</li>
-            <li>Play guitar</li>
-            <li>Play videogames</li>
-          </ul>
-        </div>
-      </div>
-    </main>
-    <footer id="contact">
-      <div class="row">
-        <div class="container">
-          <h2>Follow me on social media</h2>
-          <br />
-          <div class="social">
-            <a href="https://www.instagram.com/mario99_21/" target="_blank">
-              <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <a
-              href="https://es-la.facebook.com/marioandres.hurtadosaenz"
-              target="_blank"
-            >
-              <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/MarioHurtado99" target="_blank">
-              <i class="fab fa-twitter fa-2x"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+        </footer>
+    </body>
+
 </html>

@@ -1,3 +1,5 @@
+/* Los selectores por class y por id se encuentran mezclados al igual que su orden*/
+
 img {
   max-width: 100%;
   height: auto;
