@@ -1,3 +1,7 @@
+/* Las reglas tienen nombres descriptivos y están buen dispuestas en el archivo. 
+El diseño estético de la página es adecuado. Sería mas conveniente añadir documentación
+para entender sobre que sección aplican las reglas de forma más sencilla.*/
+
 img {
   max-width: 100%;
   height: auto;
